@@ -91,7 +91,7 @@
   <!-- Nav bar -->
   <nav class="navbar navbar-expand-md bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Tasky</a>
+      <a class="navbar-brand" href="./index.html">Tasky</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -99,7 +99,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
           </li>
         </ul>
 
@@ -123,7 +123,7 @@
         <div class="col-md-6">
           <div class="input-group flex-nowrap shadow-lg rounded">
             <input type="search" class="form-control" placeholder="Search Task" aria-label="Search Task"
-              aria-describedby="addon-wrapping" />
+              aria-describedby="addon-wrapping" oninput= "searchTask.apply(this, arguments)" />
             <span class="input-group-text" id="addon-wrapper">
               <i class="fas fa-search"></i>
             </span>
